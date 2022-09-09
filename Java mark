@@ -1,0 +1,16 @@
+import java.util.Scanner ;
+public class Marksheet {
+    public static void main  (String args[]){
+        int marks;
+        System.out.println("Enter your marks:=");
+        Scanner obj = new Scanner( System.in);
+        marks= obj.nextInt();
+        if(marks>=70 &&marks <80){
+            System.out.println("You got the first division");}
+        else if (marks>=80)
+            System.out.println("You got the distinction");
+        else if (marks<70 )
+            System.out.println(" Better luck next time ");
+        }
+    }
+
